@@ -114,17 +114,7 @@ const Index = () => {
           <BirthdayCake candlesLit={candlesLit} onBlowCandle={handleBlowCandle} />
         </div>
 
-        {/* Footer */}
-        <motion.footer
-          className="mt-auto pt-12 pb-6 text-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-        >
-          <p className="text-muted-foreground text-sm font-body">
-            Made with 💙 for your special day
-          </p>
-        </motion.footer>
+        
       </motion.main>
 
       {/* Celebration Modal */}
