@@ -18,7 +18,7 @@ const BirthdayCake = ({ candlesLit, onBlowCandle }: BirthdayCakeProps) => {
     >
       {/* Instruction text */}
       <motion.p
-        className="text-lg md:text-xl font-body text-foreground/80 mb-6 text-center"
+        className="text-lg md:text-xl font-body text-foreground/80 mb-16 md:mb-20 text-center"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: allBlownOut ? 0 : 1, y: 0 }}
         transition={{ delay: 1, duration: 0.5 }}
