@@ -104,7 +104,7 @@ const CelebrationModal = ({ isOpen, onClose, onReset }: CelebrationModalProps) =
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                Wishing you all the joy and happiness today! 🎉
+                Wishing you all the joy and happiness! 🎉
               </motion.p>
 
               <motion.div
