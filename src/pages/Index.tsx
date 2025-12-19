@@ -113,7 +113,15 @@ const Index = () => {
         <div className="mt-8 md:mt-12">
           <BirthdayCake candlesLit={candlesLit} onBlowCandle={handleBlowCandle} />
         </div>
-
+        
+        {/* Footer */}
+        <motion.footer
+          className="mt-auto pt-12 pb-6 text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+        >
+        </motion.footer>
         
       </motion.main>
 
